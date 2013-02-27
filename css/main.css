@@ -10,6 +10,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+
 html,
 button,
 input,
@@ -19,10 +21,67 @@ textarea {
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
+   font-family: "utopia-std-subhead",serif;
+   font-size: 36px;
+   line-height: 50px;
+}
+#container {
+  width: 898px;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 31px;
+  padding-right: 31px;
+}
+#branding h1 {
+  width: 370px;
+  float: left;
+}
+#branding img {
+  width: 150px;
+  height: 150px;
+}
+#primary_links li {
+  display: inline;
+  border: 1px solid;
+}
+#primary_links {
+  background-color: black;
+  clear: both;
 }
 
+#primary_links ul {
+  margin: 0px;
+}
+
+#primary_links a {
+  color: white;
+  text-decoration: none;
+}
+#primary_links a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "ff-dagny-web-pro",sans-serif;
+}
+h1 {
+  font-size: 220%;
+}
+h2 {
+  font-size: 200%;
+}
+h3 {
+  font-size: 180%;
+}
+
+h4 {
+  font-size: 160%;
+}
+p:first-letter {
+  font-size: 160%;
+
+}
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
